@@ -36,6 +36,14 @@ h1 {
   justify-content: center;
 }
 
+.logo {
+  padding: 20px 0px;
+}
+
+.box {
+  padding: 20px 0px;
+}
+
 .search {
   max-width: 800px;
   margin: auto;
