@@ -1,0 +1,41 @@
+{
+  "name": "Mooviegle",
+  "version": "1.0.0",
+  "description": "Search movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "jetpack src",
+    "build": "npm install && jetpack build src",
+    "upload-stream": "node --experimental-json-modules scripts/uploadToSource.js",
+    "test": "healthier && prettier --check '**/*.{js,json,css}'",
+    "format": "prettier --write '**/*.{js,json,css,yml}'"
+  },
+  "healthier": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ]
+  },
+  "author": "Sam Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "@coveo/atomic-react": "^0.4.11",
+    "@coveo/push-api-client": "^1.5.4",
+    "dotenv": "^16.0.0",
+    "jetpack": "^0.30.0-6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.41",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "healthier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-loader": "^9.2.6",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}

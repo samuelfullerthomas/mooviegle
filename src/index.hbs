@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
+    <title>Mooviegle</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://user-images.githubusercontent.com/10165959/155550241-1cc8082e-f5e8-48cb-add5-91982546fcb6.png" />
+    {{#each assets.css}}
+    <link rel="stylesheet" href='{{{.}}}' />
+    {{/each}}
+    {{{head}}}
+  </head>
+  <body>
+    {{{body}}}
+    {{#if runtime}}
+    <script type='text/javascript'>
+    {{{runtime}}}
+    </script>
+    {{/if}}
+    {{#each assets.js}}
+    <script type='text/javascript' src='{{{.}}}' async></script>
+    {{/each}}
+  </body>
+</html>

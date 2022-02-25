@@ -1,0 +1,5 @@
+dist
+node_modules
+development.yml
+.env
+.swc

@@ -1,0 +1,77 @@
+{
+  "common": {
+    "rules": [
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagcjde",
+        "field": "description",
+        "content": ["%[description]"]
+      },
+      {
+        "id": "ubu6a3p2jeu2yyvpra6pagcjde",
+        "field": "id",
+        "content": ["%[id]"]
+      },
+      {
+        "id": "ubu6a3p2jeu3yyvpra6pagcjde",
+        "field": "title",
+        "content": ["%[title]"]
+      },
+      {
+        "id": "ubu6a3p2jeudy4vpra6pagcjde",
+        "field": "link",
+        "content": ["%[link]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyv6ra6pagcjde",
+        "field": "year",
+        "content": ["%[year]"]
+      },
+      {
+        "id": "ubu6a3p2jeu7yyvpra6pagcjde",
+        "field": "datepublished",
+        "content": ["%[datepublished]"]
+      },
+      {
+        "id": "ubu6a3p2je8dyyvpra6pagcjde",
+        "field": "genres",
+        "content": ["%[genres]"]
+      },
+      {
+        "id": "ubu6a3p9jeudyyvpra6pagcjde",
+        "field": "duration",
+        "content": ["%[duration]"]
+      },
+      {
+        "id": "ubu6a3p0jeudyyvpra6pagcjde",
+        "field": "countries",
+        "content": ["%[countries]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagc1de",
+        "field": "languages",
+        "content": ["%[languages]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagcj2e",
+        "field": "directors",
+        "content": ["%[directors]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagcj3e",
+        "field": "budget",
+        "content": ["%[budget]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagcj4e",
+        "field": "score",
+        "content": ["%[score]"]
+      },
+      {
+        "id": "ubu6a3p2jeudyyvpra6pagcj5e",
+        "field": "image",
+        "content": ["%[image]"]
+      }
+    ]
+  },
+  "types": []
+}
